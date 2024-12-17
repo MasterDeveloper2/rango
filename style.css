@@ -1,0 +1,925 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --color1:#1b0b33eb;
+    --color2:#452b78;
+}
+.navbar{
+    background-color:rgba(50, 10, 94,0.3);
+    position: relative;
+    z-index: 5;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+
+}
+.nav-link{
+margin-right: 2.5rem;
+}
+ .serachbar{
+    padding-left: 10rem;
+    padding-top: 0.6rem;
+    
+}
+#search10{
+    cursor: pointer;
+}
+#navbarSupportedContent{
+    padding-left: 10rem;
+} 
+.image1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/parent2.avif);
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+.orange{
+    color: orangered;
+    letter-spacing:0.2rem !important;
+}
+.space1{
+    display: inline-block;
+    letter-spacing:0.2rem !important;
+}
+.navbar-toggler{
+    color: white !important;
+     background-color: white !important; 
+     
+   
+}
+/* .fonts10{
+    
+    height: 90vh;
+   
+} */
+.top10{
+    position: absolute;
+    top: 4.88rem;
+    left: 29rem;
+}
+.colorlib{
+    font-size: 3rem;
+}
+#gopro{
+    font-size: 15rem !important;
+    font-weight:900 ;  
+}
+.cardsmain{
+    height: 100vh;
+    width: 100%;
+    
+
+}
+.cards1{
+    height: 100% !important;
+    width: 32.7vw !important;
+    background-color: white;
+    border: 1px solid red;
+} 
+ .but1{
+background: none;
+color: var(--color2);
+border: 2px solid var(--color1) !important;
+cursor: pointer;
+width: 12vw;
+height: 8vh;
+
+} 
+.but1:hover{
+    background-color: var(--color1) !important;
+    transition: 0.5s;
+    color: white;
+}
+.right{
+   width: 100%;
+  
+}
+.cards2{
+   
+    width: 33vw !important;  
+    border: none !important;
+}
+.cards1{
+    border: none !important;
+}
+.para1{
+    font-size: 4.5rem !important;
+}
+.thirdmain{
+    height: 80vh;
+    width: 100%;   
+}
+.imgcard{
+    display: flex;
+}
+.cards10{
+height: 80vh !important;
+border: none !important;
+}
+#image12{
+    background-image: url(image/main1.webp) ;
+    background-size: 100% 100% !important;
+    width: 100%;
+    
+}
+.toot{
+    width: 100% !important;
+}
+#head1{
+    font-size: 4.7rem !important;
+}
+.onlytext{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.divpara{
+    color: #452b78;
+}
+.fifth{
+    height: 90vh;
+    width: 100%;
+   
+    
+}
+.just{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+#color1{
+    background-color:var(--color2);
+}
+#million{
+    font-size: 2rem;
+}
+.dots{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dotshead{
+    font-size: 10rem;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.dotshead:hover{
+    color:var(--color2);
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+.bordernone1{
+    border: none !important;
+    box-shadow: 1rem 1rem 10rem black ;
+}
+.divdot{
+    display: flex;
+}
+.secondlast{
+    height: 70vh;
+    width: 100%;
+
+ 
+}
+.eng{
+   display: flex; 
+}
+.end1{
+    height: 70vh !important; 
+    width: 100%;
+    border: none !important;
+}
+.bode{
+    height:90vh;
+   
+    background-image: url(image/cta.png.webp);
+    background-size: 100% 100%;
+}
+#back{
+    background-image: url(image/line.jpg.webp);
+    background-size: 100% 100%;
+} 
+/* slider */
+::-webkit-scrollbar {
+    width: 15px;
+    
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+
+  }
+  ::-webkit-scrollbar-thumb {
+    background:rgb(57, 57, 157); 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--color2); 
+  }  
+.purple{
+    height: 70vh;
+    width: 100%;
+    background-color: var(--color1);
+}
+#input2{
+    width: 55rem !important;
+    height: 3rem !important;
+    background-color:var(--color2) !important;
+    border: none;
+    outline: none;
+}
+#lats{
+    height: 3rem !important;
+    border: 2px solid var(--color2) !important;
+  
+}
+#lats:hover{
+    background-color:var(--color2) !important;
+}
+
+.footerlastsec{
+    height: 30vh;
+    width: 100%;
+}
+#lasticon:hover{
+    color: white;
+}
+#lasticon{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media (max-width:1024px){
+    .serachbar{
+       display: none;
+    }
+    .navbar-nav{
+position: relative;
+right:5rem;
+    }
+    .top10{
+        position: absolute;
+        top: 10.88rem;
+        left: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .colorlib{
+        font-size: 1.6rem;
+    }
+    #gopro{
+        font-size: 5rem !important;
+        font-weight:500 ;  
+    }
+    .cardsmain{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .leftcard{
+       width:100% ;
+      
+     
+    }
+    .cards1{
+        width: 100% !important;
+        height: 50vh !important;
+        
+
+       
+    }
+    .para1{
+        font-size: 3.5rem !important;
+    }
+    .right{
+       width: 300vw !important;
+       
+     }
+     .but1{
+        width: 20vw;
+height: 8vh;
+     }
+     .right{
+        display: flex;
+        flex-wrap: nowrap !important;
+        flex-direction: row;
+        width: 100% !important;
+        
+     }
+     .cards2{
+   
+        width: 100% !important;  
+    }
+    .imgcard{
+        display: flex;
+        flex-direction: column;
+    }
+    #head1{
+        font-size: 5rem !important;
+    }
+    #para10{
+        font-size: 1.5rem !important;
+    }
+    .just{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .eng {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+@media  (min-width:1024px) and (max-width:1280px){
+     .serachbar{
+      display: none; 
+     }
+
+     
+     i{
+        color: black;
+     }
+      #navbarSupportedContent{
+        padding-left: 2rem !important;
+     } 
+     .navbar-nav{
+        position: relative;
+        right:5rem;
+            }
+            .nav-link{
+                margin-right: 1.5rem;
+                }
+                .top10{
+                    position: absolute;
+                    top: 5.88rem;
+                    left: 20rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .colorlib{
+                    font-size: 3.6rem;
+                }
+                #gopro{
+                    font-size: 15rem !important;
+                    font-weight:500 ;  
+                }
+                .cardsmain{
+                    display: flex !important;
+                    flex-direction: column !important;
+                }
+                .leftcard{
+                   width:100% ;
+                  
+                 
+                }
+                .cards1{
+                    width: 100% !important;
+                    height: 50vh !important;
+                    
+            
+                   
+                }
+                .para1{
+                    font-size: 3.5rem !important;
+                }
+                .right{
+                   width: 300vw !important;
+                   
+                 }
+                 .but1{
+                    width: 20vw;
+            height: 8vh;
+                 }
+                 .right{
+                    display: flex;
+                    flex-wrap: nowrap !important;
+                    flex-direction: row;
+                    width: 100% !important;
+                    
+                 }
+                 .cards2{
+               
+                    width: 100% !important;  
+                }
+                .imgcard{
+                    display: flex;
+                    flex-direction: column;
+                }
+                #head1{
+                    font-size: 5rem !important;
+                }
+                #para10{
+                    font-size: 1.5rem !important;
+                }
+                .just{
+                    width: 100%;
+                    height: 90vh;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .eng {
+                    width: 100%;
+                    height: 90vh;
+                    display: flex;
+                    flex-direction: column;
+                }
+}
+ @media  (min-width:1025px) and (max-width:1280px){
+    #gopro{
+        font-size: 15rem !important;
+        font-weight:500 ;  
+    }
+    .colorlib{
+        font-size: 3.6rem;
+    }
+    .top10{
+        position: absolute;
+        top: 6.58rem;
+        left: 28rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-nav{
+        position: relative;
+        right: 3rem;
+            }
+            .nav-link{
+                margin-right: 1.5rem;
+                }
+                .serachbar{
+                    display: block;
+                } 
+                   
+
+ }
+ @media (min-width:992px)and (max-width:1115px){
+    .serachbar{
+        display: none !important;
+    }  
+    .nav-link{
+        margin-right: 1rem !important;
+        }
+        .cardsmain{
+            display: flex !important;
+            flex-direction: column !important;
+        }
+        .leftcard{
+           width:100% ;
+          
+         
+        }
+        .cards1{
+            width: 100% !important;
+            height: 50vh !important;
+            
+    
+           
+        }
+        .para1{
+            font-size: 3.5rem !important;
+        }
+        .right{
+           width: 300vw !important;
+           
+         }
+         .but1{
+            width: 20vw;
+    height: 8vh;
+         }
+         .right{
+            display: flex;
+            flex-wrap: nowrap !important;
+            flex-direction: row;
+            width: 100% !important;
+            
+         }
+         .cards2{
+       
+            width: 100% !important;  
+        }
+        .imgcard{
+            display: flex;
+            flex-direction: column;
+        }
+        #head1{
+            font-size: 5rem !important;
+        }
+        #para10{
+            font-size: 1.5rem !important;
+        }
+        .just{
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .eng {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+        }
+ }
+ @media (min-width:376px) and (max-width:768px){
+    .top10{
+        position: absolute;
+        top: 15.88rem;
+        left: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+    .colorlib{
+        font-size: 1.6rem;
+    }
+    #gopro{
+        font-size: 7rem !important;
+        font-weight:500 ;  
+    }
+    .cardsmain{
+        display: flex !important;
+        flex-direction: column !important;
+        height: 190vh;
+    }
+    .leftcard{
+       width:100% ;
+      
+     
+    }
+    .cards1{
+        width: 100% !important;
+        height: 50vh !important;
+        
+
+       
+    }
+    .para1{
+        font-size: 0.1rem !important;
+    }
+    .right{
+       width: 300vw !important;
+       
+     }
+     .but1{
+        width: 30vw;
+height: 8vh;
+     }
+     .right{
+        display: flex;
+        flex-wrap: nowrap !important;
+        flex-direction: row;
+        width: 100% !important;
+        
+     }
+     .cards2{
+   
+        width: 100% !important;  
+    }
+    .imgcard{
+        display: flex;
+        flex-direction: column;
+    }
+    #head1{
+        font-size: 5rem !important;
+    }
+    #para10{
+        font-size: 1.5rem !important;
+    }
+    .just{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .eng {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #input2{
+        width: 18rem !important;
+        height: 3rem !important;
+        background-color:var(--color2) !important;
+        border: none;
+    }
+    .purple{
+        margin-top: 20rem !important;
+    }
+    .secondlast{
+        margin-top: 1rem !important;
+    }
+    .dots{
+        margin-top: 30rem !important;
+    }
+    #drink{
+        margin-top: 25rem !important;
+    }
+    .fifth{
+        margin-top: 35rem !important;
+    }
+    .cardsmain{
+        margin-top: 10rem  !important;
+    }
+    
+ }
+ @media (min-width:540px) and (max-width:767px){
+    .top10{
+        position: absolute;
+        top: 10.88rem;
+        left: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+    #gopro{
+        font-size: 10rem !important;
+        font-weight:500 ;  
+    }
+    .colorlib{
+        font-size: 2.6rem;
+    }
+    .cardsmain{
+        display: flex !important;
+        flex-direction: column !important;
+        height: 190vh !important;
+    }
+    .leftcard{
+       width:100% ;
+      
+     
+    }
+    .cards1{
+        width: 100% !important;
+        height: 50vh !important;
+        
+
+       
+    }
+    .para1{
+        font-size: 2.5rem !important;
+    }
+    .right{
+       width: 300vw !important;
+       
+     }
+     .but1{
+        width: 25vw;
+height: 8vh;
+     }
+     .right{
+        display: flex;
+        flex-wrap: nowrap !important;
+        flex-direction: row;
+        width: 100% !important;
+        
+     }
+     .cards2{
+   
+        width: 100% !important;  
+    }
+    .imgcard{
+        display: flex;
+        flex-direction: column;
+    }
+    #head1{
+        font-size: 5rem !important;
+    }
+    #para10{
+        font-size: 1.5rem !important;
+    }
+    .just{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .eng {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #input2{
+        width: 25rem !important;
+        height: 3rem !important;
+        background-color:var(--color2) !important;
+        border: none;
+    }
+    .purple{
+        margin-top: 20rem !important;
+    }
+    .secondlast{
+        margin-top: 1rem !important;
+    }
+    .dots{
+        margin-top: 30rem !important;
+    }
+    #drink{
+        margin-top: 25rem !important;
+    }
+    .fifth{
+        margin-top: 12rem !important;
+    }
+ }
+ @media (min-width:768px) and (max-width:1115px){
+
+ .top10{
+        position: absolute;
+        top: 10.88rem;
+        left: 14.3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+    #gopro{
+        font-size: 10rem !important;
+        font-weight:500 ;  
+    }
+    .colorlib{
+        font-size: 2.6rem;
+    }
+    .cardsmain{
+        display: flex !important;
+        flex-direction: column !important;
+        height: 170vh;
+        background-color: blue !important;
+    }
+    .leftcard{
+       width:100% ;
+      
+     
+    }
+    .cards1{
+        width: 100% !important;
+        height: 50vh !important;
+        
+
+       
+    }
+    .para1{
+        font-size: 3.5rem !important;
+    }
+    .right{
+       width: 300vw !important;
+       
+     }
+     .but1{
+        width: 20vw;
+height: 8vh;
+     }
+     .right{
+        display: flex;
+        flex-wrap: nowrap !important;
+        flex-direction: row;
+        width: 100% !important;
+        
+     }
+     .cards2{
+   
+        width: 100% !important;  
+    }
+   
+    .imgcard{
+        display: flex;
+        flex-direction: column;
+    }
+    #head1{
+        font-size: 5rem !important;
+    }
+    #para10{
+        font-size: 1.5rem !important;
+    }
+    .just{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .eng {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #input2{
+        width: 35rem !important;
+        height: 3rem !important;
+        background-color:var(--color2) !important;
+        border: none;
+    }
+    .purple{
+        margin-top: 20rem !important;
+    }
+    .secondlast{
+        margin-top: 1rem !important;
+    }
+    .dots{
+        margin-top: 30rem !important;
+    }
+    #drink{
+        margin-top: 25rem !important;
+    }
+    .fifth{
+        margin-top: 12rem !important;
+    }
+     
+ }
+ @media (max-width:376px){
+    .para1{
+        font-size: 2rem !important;
+    }
+  .but1{
+   width: 40vw;
+height: 8vh;
+
+} 
+.cardsmain{
+    height: 205vh;
+}
+.imgcard{
+    display: flex;
+    flex-direction: column;
+}
+#head1{
+    font-size: 3rem !important;
+}
+#para10{
+    font-size: 1rem !important;
+}
+.just{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.eng {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+#input2{
+    width: 10rem !important;
+    height: 3rem !important;
+    background-color:var(--color2) !important;
+    border: none;
+     padding-right: 1.5rem; 
+   
+}
+.purple{
+    margin-top: 20rem !important;
+}
+.secondlast{
+    margin-top: 1rem !important;
+}
+
+
+.dots{
+    margin-top: 38rem !important;
+}
+#drink{
+    margin-top: 25rem !important;
+}
+.fifth{
+    margin-top: 12rem !important;
+}
+
+
+}
